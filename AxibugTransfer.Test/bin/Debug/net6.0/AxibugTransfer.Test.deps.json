@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AxibugTransfer.Test/1.0.0": {
+        "dependencies": {
+          "AxibugTransfer.Tcp": "1.0.0"
+        },
+        "runtime": {
+          "AxibugTransfer.Test.dll": {}
+        }
+      },
+      "AxibugTransfer.Tcp/1.0.0": {
+        "runtime": {
+          "AxibugTransfer.Tcp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AxibugTransfer.Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AxibugTransfer.Tcp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
