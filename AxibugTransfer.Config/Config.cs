@@ -16,7 +16,7 @@ namespace AxibugTransfer.Config
             cfgList = new List<CfgInfo>();
             try
             {
-                StreamReader sr = new StreamReader(System.Environment.CurrentDirectory + "\\config.cfg", Encoding.Default);
+                StreamReader sr = new StreamReader(System.Environment.CurrentDirectory + "//config.cfg", Encoding.Default);
                 String line;
                 while (!string.IsNullOrEmpty((line = sr.ReadLine())))
                 {
